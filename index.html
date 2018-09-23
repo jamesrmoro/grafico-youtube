@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Youtube Gráfico | 2º vídeo da série - Meu dia a dia como dev</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0, width=device-width" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://www.google.com/jsapi"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="hide">
+    <div id="app">
+        <h1>O Superpoder de fazer um vídeo por dia</h1>
+        <p>Este conteúdo é da série de vídeos <a href="https://www.youtube.com/playlist?list=PLL-5LVs-8oQLZ49eMdq2ItetbGToCRROw" target="_blank" title="Meu dia a dia como dev">"Meu dia a dia como dev"</a>. Semanalmente é lançado um novo desafio. O objetivo é usar a tecnologia e fazer coisas legais colocando a mão na massa.</p>
+        <p>Abaixo você pode ver o resultado. Não entendeu? Então assista a este <a href="https://www.youtube.com/watch?v=Eo_-JrBE8to" target="_blank" title="Utilizando Google Chart para dados do Youtube">vídeo</a>.</p>
+        <div id="calendar_basic"></div>
+        <div class="load">
+            <div class="image">
+                <img src="images/load.gif" alt="Carregando conteúdo">
+                <span>Carregando dados</span>
+            </div>
+        </div>
+        <div class="group-list">
+            <ol reversed id="results" class="list"></ol>
+            <span class="more" title="Ver mais vídeos">Ver mais vídeos</span>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
